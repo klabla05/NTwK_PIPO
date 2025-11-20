@@ -1,0 +1,5 @@
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.AssemblyInfoInputs.cache
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.AssemblyInfo.cs
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.csproj.CoreCompileInputs.cache
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.sourcelink.json

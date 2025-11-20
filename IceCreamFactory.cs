@@ -21,14 +21,31 @@ namespace zad_dom_5
             }
             else
             {
-                Console.Writeline("Number given to SetProductionType is out of range");
+                Console.WriteLine("Number given to SetProductionType is out of range");
                 return;
             }
         }
-        public string[] TodaysFavourites()
+        public IceCream TodayFavourite()
         {
-            string[] strings;
-            
+            switch (type)
+            {
+                case ProductionType.Economic:
+                    return new DiaryIceCream{cost = 8, flavour = "Chocolate", in_waffle = false, icing = "chocolate", topping = true};
+                case ProductionType.Fast:
+                    return new Sorbet{cost = 10, flavour = "Strawberry"};
+                case ProductionType.Premium:
+                    return new ItalianIceCream{cost = 12, flavour = "mixed strawbery and chocolate", in_waffle = true, topping = true};
+                case ProductionType.Ecologic:
+                    return new FruitIceCream{cost = 6, flavour = "Banana", in_waffle = false, topping = false};
+                case ProductionType.Experimential:
+                    return new Sorbet{cost = 9, flavour = "Mint with Banana"};
+                case ProductionType.New:
+                    return new FruitIceCream{cost = 8, flavour = "Blueberry", in_waffle = true, icing = "Caramel"};
+                case ProductionType.Cheap:
+                    return new Sorbet{cost = 2, flavour = "Apple"};
+                default:
+                    return Console.WriteLine("Error in TodayFavourite");
+            } 
         }
     }
 }
