@@ -13,21 +13,13 @@ namespace zad_dom_5
     class IceCreamFactory
     {
         public ProductionType productionType;
-        public void SetProductionType(int i)
+        public void SetProductionType(ProductionType t)
         {
-            if(i > -1 && i < 7)
-            {
-                productionType = ProductionType(i);
-            }
-            else
-            {
-                Console.WriteLine("Number given to SetProductionType is out of range");
-                return;
-            }
+            productionType = t;
         }
         public IceCream TodayFavourite()
         {
-            switch (type)
+            switch (productionType)
             {
                 case ProductionType.Economic:
                     return new DiaryIceCream{cost = 8, flavour = "Chocolate", in_waffle = false, icing = "chocolate", topping = true};
@@ -36,7 +28,7 @@ namespace zad_dom_5
                 case ProductionType.Premium:
                     return new ItalianIceCream{cost = 12, flavour = "mixed strawbery and chocolate", in_waffle = true, topping = true};
                 case ProductionType.Ecologic:
-                    return new FruitIceCream{cost = 6, flavour = "Banana", in_waffle = false, topping = false};
+                    return new FruitIceCream{cost = 6, flavour = "Banana", in_waffle = false};
                 case ProductionType.Experimential:
                     return new Sorbet{cost = 9, flavour = "Mint with Banana"};
                 case ProductionType.New:
@@ -44,7 +36,7 @@ namespace zad_dom_5
                 case ProductionType.Cheap:
                     return new Sorbet{cost = 2, flavour = "Apple"};
                 default:
-                    return Console.WriteLine("Error in TodayFavourite");
+                    return null;
             } 
         }
     }

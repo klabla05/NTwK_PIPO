@@ -1,6 +1,6 @@
 namespace zad_dom_5
 {
-    class ItalianIceCream : Icecream
+    class ItalianIceCream : IceCream
     {
         public bool in_waffle{get; set;}
         public bool topping{get; set;}

@@ -4,7 +4,7 @@ namespace zad_dom_5
     {
         public override void GetInformation()
         {
-            Console.WriteLine($"Sorbet, cost {cost}");
+            Console.WriteLine($"Sorbet, cost {cost}, flavour {flavour}");
         }
     }
 }

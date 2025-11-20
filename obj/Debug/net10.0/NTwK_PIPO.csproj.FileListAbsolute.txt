@@ -3,3 +3,13 @@ C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.AssemblyInfo
 C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.AssemblyInfo.cs
 C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.csproj.CoreCompileInputs.cache
 C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.sourcelink.json
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\bin\Debug\net10.0\NTwK_PIPO.exe
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\bin\Debug\net10.0\NTwK_PIPO.deps.json
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\bin\Debug\net10.0\NTwK_PIPO.runtimeconfig.json
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\bin\Debug\net10.0\NTwK_PIPO.dll
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\bin\Debug\net10.0\NTwK_PIPO.pdb
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.dll
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\refint\NTwK_PIPO.dll
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.pdb
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\NTwK_PIPO.genruntimeconfig.cache
+C:\Users\klaud\Desktop\Studia\NTwK_PIPO\obj\Debug\net10.0\ref\NTwK_PIPO.dll
