@@ -9,7 +9,7 @@ namespace zad_dom_5
         }
         public void PresentTodays()
         {
-            var icecream = factory.TodayFavourite();
+            IceCream icecream = factory.TodayFavourite();
             icecream.GetInformation();
         }
     }
